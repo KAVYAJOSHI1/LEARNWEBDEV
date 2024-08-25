@@ -3,3 +3,19 @@
 {
     background-color: aqua;
 }
+/*TO give color and border to the label */
+#xlabel
+{
+    color: blue;
+    border: 2px solid red;
+}
+#ylabel
+{
+    color: blue;
+    border: 2px solid red;
+}
+#zlabel
+{
+    color: blue;
+    border: 2px solid red;
+}
