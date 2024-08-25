@@ -1,5 +1,4 @@
 //method chaining
 let name="kavya ";
-let letter=name.charAT(0);
-letter =letter.toUpperCase();
+let letter=name.charAt(0).toUpperCase().trim();
 console.log(letter);
