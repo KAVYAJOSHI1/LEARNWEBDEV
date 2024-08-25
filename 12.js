@@ -6,3 +6,11 @@ if(age>18){
 else{
     console.log("not eligible");
 }
+let online=true;
+if(online)
+{
+    console.log("YOU ARE ONLINE");
+}else
+{
+    console.log("YOU ARE OFFLINE");
+}
