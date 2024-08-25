@@ -1,5 +1,21 @@
+/*Align three buttons in same align with beautiful colors*/
 #countlabel{
     display:block;
     text-align: center;
     font-size: 50px;
+}
+#decreasebutton{
+    background-color: red;
+    text-align: left;
+    font-size: 40px;
+}
+#resetbutton{
+    background-color: yellow;
+    text-align: center;
+    font-size: 40px;
+}
+#increasebutton{
+    background-color: green;
+    text-align: right;
+    font-size: 40px;
 }
