@@ -1,6 +1,7 @@
-document.getElementById("mybutton")==function(){
-    
-    if(document.getElementById("mycheckbox").checked ){
+document.getElementById("mybutton").onclick =function(){
+    const check=document.getElementById("mycheckbox");
+    if(check.checked )
+        {
 
         console.log("SUBSCRIBED");
 
