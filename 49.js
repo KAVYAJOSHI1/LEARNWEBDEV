@@ -1,5 +1,5 @@
 //inheritence
-
+//super keyword
 
 class Animal{
     alive=true;
