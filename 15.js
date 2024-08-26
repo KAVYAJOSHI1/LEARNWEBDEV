@@ -6,3 +6,6 @@ else
 {
     console.log("HOT");
 }
+// ||
+// &&
+// !
