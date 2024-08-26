@@ -14,7 +14,7 @@ document.getElementById("submit").onclick=function(){
                 temp=document.getElementById("textbox").value;
                 temp=Number(temp);
                 temp=toFahrenheit(temp);
-                document.getElementById("templabel").innerHTML=temp;
+                document.getElementById("templabel").innerHTML=temp + "°F";
 
             }
             else
