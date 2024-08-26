@@ -1,10 +1,10 @@
 //for loop
 for(let counter=1; counter <=10;counter++){
-    if(i==2)
+    if(counter==2)
     {
         continue;
     }
-    if(i==4)
+    if(counter==4)
     {
         break;
     }
