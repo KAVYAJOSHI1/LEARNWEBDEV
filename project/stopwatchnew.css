@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #3a1c71, #d76d77, #ffaf7b);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Time Container */
+#timecontainer {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* Time Display */
+#timedisplay {
+    font-size: 3em;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.timerbtn {
+    background-color: #ffaf7b;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 25px;
+    margin: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.timerbtn:hover {
+    background-color: #d76d77;
+    transform: translateY(-3px);
+}
+
+.timerbtn:active {
+    background-color: #3a1c71;
+    transform: translateY(1px);
+}
+
+/* Additional Styles */
+#timecontainer:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
