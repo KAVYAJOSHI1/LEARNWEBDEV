@@ -1,0 +1,19 @@
+/* pong.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pongCanvas {
+    background-color: #FFD700; /* Changed to bright gold */
+    border: 5px solid #fff;
+    display: block;
+    box-shadow: 0px 0px 20px 5px #fff;
+}
