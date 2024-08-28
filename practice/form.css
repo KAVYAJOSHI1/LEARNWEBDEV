@@ -1,0 +1,15 @@
+div{
+    text-align: center;
+    background-color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid black;
+    border-radius: 3cap;
+    
+
+}
+#submitbutton{
+    
+    background-color: brown;
+    border: 3px solid white;
+    border-radius: 3cap;
+}
