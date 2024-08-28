@@ -6,6 +6,15 @@ document.getElementById("submitbutton").onclick = function() {
         window.alert("FILL THE DETAILS");
     }
     else
-    
+
     window.alert("HELLO " + username + " WITH ROLL NUMBER " + rollno);
+    clear();
+
 }
+function clear()
+{
+    document.getElementById("username").value="";
+    document.getElementById("rollnumber").value="";
+}
+
+
