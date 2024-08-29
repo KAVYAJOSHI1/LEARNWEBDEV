@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUM</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="sum.css">
 </head>
 <body>
-    <label id="A">ENTER VALUE OF A</label><br>
-    <input type="text" id="texta"><br>
-    <label id="B">ENTER VALUE OF B</label><br>
-    <input type="text" id="textb"><br>
-    <button type="button">  SUM </button>
-        <button type="button">  DIF </button>    
-            <button type="button">  MUL </button>
-                <button type="button">  SUM </button>
+    <div class="calculator">
+        <label for="texta">ENTER VALUE OF A</label>
+        <input type="text" id="texta">
 
+        <label for="textb">ENTER VALUE OF B</label>
+        <input type="text" id="textb">
+
+        <button type="button" id="sum">SUM</button>
+        <button type="button" id="diff">DIFF</button>
+        <button type="button" id="mul">MUL</button>
+        <button type="button" id="div">DIV</button>
+
+        <div id="resultBox">
+            Result: <span id="result"></span>
+        </div>
+    </div>
 
     <script src="sum.js"></script>
 </body>
 </html>
+
