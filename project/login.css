@@ -4,21 +4,28 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(45deg, #ff6b6b, #f8e71c);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+/* Animation for the background */
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 /* Container for the login form */
 .login-container {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.7);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 300px;
+    margin: auto;
+    margin-top: 10%;
 }
 
 /* Heading */
@@ -54,28 +61,21 @@ body, html {
 
 /* Login button */
 #login-btn {
-    background-color: #ff6b6b;
+    background-color: #008CBA;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 #login-btn:hover {
-    background-color: #d64545;
+    background-color: #007bb5;
+    transform: scale(1.05);
 }
 
-/* Animation for the background */
-@keyframes backgroundAnimation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-body {
-    background-size: 400% 400%;
-    animation: backgroundAnimation 10s ease infinite;
+#login-btn:active {
+    transform: scale(0.95);
 }
