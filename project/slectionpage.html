@@ -4,57 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Selection</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-image: url('your-background-image.jpg');
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            color: white;
-        }
-
-        .container {
-            background-color: rgba(0, 0, 0, 0.7);
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            width: 300px;
-        }
-
-        h2 {
-            margin-bottom: 20px;
-        }
-
-        .game-button {
-            width: 100%;
-            padding: 10px;
-            background-color: #008CBA;
-            border: none;
-            border-radius: 5px;
-            color: white;
-            cursor: pointer;
-            font-size: 16px;
-            margin: 10px 0;
-        }
-
-        .game-button:hover {
-            background-color: #007bb5;
-        }
-    </style>
+    <link rel="stylesheet" href="selectionpage.css">
 </head>
 <body>
 
 <div class="container">
     <h2>Select a Game</h2>
-    <button class="game-button" onclick="location.href='tictac.html'">Tic-Tac-Toe</button>
-    <button class="game-button" onclick="location.href='snake.html'">Snake</button>
-    <button class="game-button" onclick="location.href='pong.html'">Ping Game</button>
-    <button class="game-button" onclick="location.href='stonepaper.html'">Stone Paper Scissors</button>
+    <button class="game-button" data-game="tictactoe.html">Tic-Tac-Toe</button>
+    <button class="game-button" data-game="snake.html">Snake</button>
+    <button class="game-button" data-game="pong.html">Ping Game</button>
+    <button class="game-button" data-game="stonepaper.html">Stone Paper Scissors</button>
 </div>
 
+<script src="selectionpage.js"></script>
 </body>
 </html>
