@@ -1,0 +1,2 @@
+cd my_react_app
+npm run dev
