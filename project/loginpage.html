@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN PAGE</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="loginpage.css">
 </head>
 <body>
-    <div>
-        <label>USERNAME</label><br>
-        <input id="name" type="text"><br>
-        <label>PASSWORD</label><br>
-        <input id="password" type="password"><br>
-        <button type="button" id="submit">SUBMIT</button>
+    <div class="login-container">
+        <h2>Login</h2>
+        <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" required>
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+        </div>
+        <button id="login-btn">Login</button>
     </div>
     <script src="loginpage.js"></script>
 </body>
