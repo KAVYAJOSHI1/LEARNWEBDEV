@@ -1,4 +1,4 @@
-.card{
+.card {
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
@@ -6,24 +6,23 @@
   margin: 10px;
   text-align: center;
   max-width: 250px;
-  display:inline-block;
+  display: inline-block;
 }
 
-.card .card-image{
-  max-width: 10%;
-  height: auto;
+.card .card-image {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   margin-bottom: 10px;
-  
 }
-.card .card-title{
+
+.card .card-title {
   font-family: Arial, Helvetica, sans-serif;
-  margin:0;
-  color:hsla(0, 0%, 30%);
+  margin: 0;
+  color: hsla(0, 0%, 30%);
 }
 
-.card .card-text{
-
-  font-family:Arial, sans-serif;
-  color:hsl(0, 0%, 30%);
+.card .card-text {
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%);
 }
