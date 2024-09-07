@@ -3,7 +3,7 @@ function App()
 {
   return(
    <>
-   <UserGreeting isLoggedIn={false} username="Flash"/>
+   <UserGreeting isLoggedIn={true} username="Flash"/>
    </>
   );
 }
