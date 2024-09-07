@@ -15,4 +15,10 @@ Student.propTypes ={
     isStudent:PropTypes.bool.isRequired
 
 }
+Student.defaultProps={
+  name:"Unknown",
+  age:0,
+  isStudent:false,
+
+}
 export default Student
